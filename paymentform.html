@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formdesign.css">
+    <title>Document</title>
+    <title>
+        Paymont form
+    </title>
+</head>
+<body>
+    <div class="container">
+    <form action="" method="get">
+    <h1>Payment form</h1>
+    <h2>contact details</h2>
+    <p>Name:*<input type="text" name="name" required placeholder="oom"></p>
+    <fieldset>
+    <legend>Gender</legend>
+    <p>
+        male <input type="radio" name="gender" id="male">
+        female <input type="radio" name="gender" id="female">
+    </p>
+    </fieldset>
+    <p>Address:<textarea name="Address" cols="100" rows="5"></textarea></p>
+    <p>mail:<input type="email" name="email" id="email"></p>
+    <p>pincode:<input type="number" name="number"></p>
+
+    <h3>Payment info</h3>
+    <select name="card_type" id="card_type">
+        <option value="">--select--</option>
+        <option value="phonepay">phonepay</option>
+        <option value="googlepay">googlepay</option>
+    </select>
+    <p>
+        expirydate:<input type="date" name="expirydate">
+    </p>
+    <p>
+        CVV:<input type="password" name="cvv">
+    </p>
+    <input type="submit" name="submit">
+    <input type="reset" name="submit">
+</div>
+
+
+
+
+
+    </form>
+</body>
+
+</html>
